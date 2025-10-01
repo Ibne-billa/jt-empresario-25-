@@ -17,34 +17,44 @@
   <meta name="description" content="Join LGS JT Empresario 2025 - A premier business and entrepreneurship event for high school students">
   <title>Empresario 25 - Home</title>
   <style>
+    .home-text {
+  text-align: center !important;
+}
     /* Additional responsive fixes */
 @media (max-width: 768px) {
   .home-text img {
     width: 60% !important;
     min-width: 200px;
   }
-  
-  .countdown {
-    display: flex;
-    flex-wrap: wrap;       /* allow wrapping */
-    justify-content: center;
-    gap: 10px;
-    padding: 0 10px;
-    margin: 0 auto;             /* centers horizontally */
-    display: flex;
-    justify-content: center;
-    align-items: center;        /* helps with vertical centering inside parent */
-    text-align: center;
-  }
-  .time-segment{
-    font-size: clamp(20px, 7.5vw, 55px);
+  .mello{
+    margin-right: 5% !important;
+    width: 40% !important;
   }
   .countdown-wrapper {
   display: flex;
-  justify-content: center;    /* horizontal */
-  align-items: center;        /* vertical */
-  height: 100%;               /* full section height */
+  justify-content: center;   /* center horizontally */
+  align-items: center;       /* center vertically if parent has height */
+  width: 100%;               /* make wrapper full width */
+  margin: 0 auto;            /* ensure centering */
+  text-align: center;
 }
+
+.countdown {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;   /* make items center inside */
+  align-items: center;
+  gap: 10px;
+  margin: 0 auto;
+  text-align: center;
+}
+.countdown {
+  margin: 0 auto;
+  text-align: center;
+}
+  .time-segment{
+    font-size: clamp(20px, 7.5vw, 55px);
+  }
   .time-section {
     flex: 1 1 45%;         /* 2 per row */
     min-width: 120px;
@@ -122,7 +132,7 @@
         <div class="main-content">
           <div class="home-text">
             <span class="home-text1 montserrat">THE JT BUSINESS COUNCIL PRESENTS<br></span>
-            <img data-aos="zoom-in" data-aos-delay="2500" src="cropped-logo-trans-3.png" width="35%" alt="Logo">
+            <img class="mello" data-aos="zoom-in" data-aos-delay="2500" src="cropped-logo-trans-3.png" width="35%" alt="Logo" >
             <h1 style="font-family: 'Cormorant Garamond', serif; font: size 40px;; color: #ac0e49; font-weight: 700;" >JT EMPRESARIO</h1>
             <br>
             <h1>10 . 11 . 12 October '25</h1>
