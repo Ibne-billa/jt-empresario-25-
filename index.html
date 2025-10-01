@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="cropped-logo-trans-3.png" type="image/icon type">
+  <link rel="stylesheet" href="main.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Montserrat:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,700&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <meta name="author" content="Waleed Ajmal">
+  <meta name="description" content="Empresario 2025 is a premier business and entrepreneurship event, bringing together innovators, leaders, and students to showcase ideas, compete, and inspire change.">
+  <meta name="keywords" content="LGS JT Empresario 2025, Business Event, Entrepreneurship">
+  <meta name="description" content="Join LGS JT Empresario 2025 - A premier business and entrepreneurship event for high school students">
+  <title>Empresario 25 - Home</title>
+  <style>
+    /* Additional responsive fixes */
+@media (max-width: 768px) {
+  .home-text img {
+    width: 60% !important;
+    min-width: 200px;
+  }
+  
+  .countdown {
+    display: flex;
+    flex-wrap: wrap;       /* allow wrapping */
+    justify-content: center;
+    gap: 10px;
+    padding: 0 10px;
+    margin: 0 auto;             /* centers horizontally */
+    display: flex;
+    justify-content: center;
+    align-items: center;        /* helps with vertical centering inside parent */
+    text-align: center;
+  }
+  .time-segment{
+    font-size: clamp(20px, 7.5vw, 55px);
+  }
+  .countdown-wrapper {
+  display: flex;
+  justify-content: center;    /* horizontal */
+  align-items: center;        /* vertical */
+  height: 100%;               /* full section height */
+}
+  .time-section {
+    flex: 1 1 45%;         /* 2 per row */
+    min-width: 120px;
+    text-align: center;
+  }
+  
+  .time-section p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .home-text1 {
+    font-size: 20px !important;
+    padding: 0 15px;
+  }
+  
+  .home-text h1 {
+    font-size: 18px;
+  }
+  
+  .home-text img {
+    width: 70% !important;
+    min-width: 180px;
+  }
+  
+  .countdown {
+    gap: 8px;
+  }
+  
+  .time-section {
+    flex: 1 1 48%;        /* still 2 per row */
+    min-width: 100px;
+  }
+
+  .time-section p {
+    font-size: 12px;
+  }
+}
+
+    /* Smooth scroll behavior */
+    html {
+      scroll-behavior: smooth;
+    }
+    
+    /* Fix logo centering */
+    .pookie {
+      text-align: center;
+      margin: 20px 0;
+    }
+    
+    .pookie img {
+      max-width: 150px;
+      width: 10%;
+      min-width: 80px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Intro Animation -->
+  <div class="intro">
+    <h1 class="intro-logo">
+      <span class="intro-text"></span>
+      <span class="intro-text">
+        <img class="emp_logo" src="cropped-logo-trans-3.png" width="200" alt="Empresario Logo">
+      </span>
+    </h1>
+  </div>
+
+  <!-- Fixed Background -->
+  <div class="background"></div>
+
+  <!-- Main Content -->
+  <section class="home" id="home">
+        <div class="main-content">
+          <div class="home-text">
+            <span class="home-text1 montserrat">THE JT BUSINESS COUNCIL PRESENTS<br></span>
+            <img data-aos="zoom-in" data-aos-delay="2500" src="cropped-logo-trans-3.png" width="35%" alt="Logo">
+            <h1 style="font-family: 'Cormorant Garamond', serif; font: size 40px;; color: #ac0e49; font-weight: 700;" >JT EMPRESARIO</h1>
+            <br>
+            <h1>10 . 11 . 12 October '25</h1>
+          </div>
+
+      <!-- Countdown Timer -->
+      <div class="countdown-wrapper">
+      <div class="countdown" data-aos="zoom-in" data-aos-delay="3000">
+        <div class="time-section" id="days">
+          <div class="time-group">
+            <div class="time-segment">
+              <div class="segment-display">
+                <div class="segment-display__top">0</div>
+                <div class="segment-display__bottom">0</div>
+                <div class="segment-overlay">
+                  <div class="segment-overlay__top">0</div>
+                  <div class="segment-overlay__bottom">0</div>
+                </div>
+              </div>
+            </div>
+            <div class="time-segment">
+              <div class="segment-display">
+                <div class="segment-display__top">0</div>
+                <div class="segment-display__bottom">0</div>
+                <div class="segment-overlay">
+                  <div class="segment-overlay__top">0</div>
+                  <div class="segment-overlay__bottom">0</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <p>Days</p>
+        </div>
+
+        <div class="time-section" id="hours">
+          <div class="time-group">
+            <div class="time-segment">
+              <div class="segment-display">
+                <div class="segment-display__top">0</div>
+                <div class="segment-display__bottom">0</div>
+                <div class="segment-overlay">
+                  <div class="segment-overlay__top">0</div>
+                  <div class="segment-overlay__bottom">0</div>
+                </div>
+              </div>
+            </div>
+            <div class="time-segment">
+              <div class="segment-display">
+                <div class="segment-display__top">0</div>
+                <div class="segment-display__bottom">0</div>
+                <div class="segment-overlay">
+                  <div class="segment-overlay__top">0</div>
+                  <div class="segment-overlay__bottom">0</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <p>Hours</p>
+        </div>
+
+        <div class="time-section" id="minutes">
+          <div class="time-group">
+            <div class="time-segment">
+              <div class="segment-display">
+                <div class="segment-display__top">0</div>
+                <div class="segment-display__bottom">0</div>
+                <div class="segment-overlay">
+                  <div class="segment-overlay__top">0</div>
+                  <div class="segment-overlay__bottom">0</div>
+                </div>
+              </div>
+            </div>
+            <div class="time-segment">
+              <div class="segment-display">
+                <div class="segment-display__top">0</div>
+                <div class="segment-display__bottom">0</div>
+                <div class="segment-overlay">
+                  <div class="segment-overlay__top">0</div>
+                  <div class="segment-overlay__bottom">0</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <p>Minutes</p>
+        </div>
+
+        <div class="time-section" id="seconds">
+          <div class="time-group">
+            <div class="time-segment">
+              <div class="segment-display">
+                <div class="segment-display__top">0</div>
+                <div class="segment-display__bottom">0</div>
+                <div class="segment-overlay">
+                  <div class="segment-overlay__top">0</div>
+                  <div class="segment-overlay__bottom">0</div>
+                </div>
+              </div>
+            </div>
+            <div class="time-segment">
+              <div class="segment-display">
+                <div class="segment-display__top">0</div>
+                <div class="segment-display__bottom">0</div>
+                <div class="segment-overlay">
+                  <div class="segment-overlay__top">0</div>
+                  <div class="segment-overlay__bottom">0</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <p>Seconds</p>
+        </div>
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Mini Navbar -->
+  <div class="mini-navbar-container">
+    <div class="mini-navbar">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">Info</a>
+      <a href="Categories.html">Categories</a>
+      <a href="registration.html">Register</a>
+      <a href="https://drive.google.com/file/d/14zs_DQduW9MqzzuyghZ5Qgreesx_5psc/view?usp=sharing" target="_blank">School Invite</a>
+    </div>
+  </div>
+
+  <!-- Categories Slider -->
+  <section class="categories" data-aos="fade-up" data-aos-delay="200">
+    <div class="slider-container">
+      <h2 class="slider-title">Our Categories</h2>
+      <div class="slider-wrapper">
+        <div class="slider">
+          <div class="square"><img src="Idea Brigade.png" alt="Idea Brigade"></div>
+          <div class="square"><img src="stonks1.png" alt="Stonks"></div>
+          <div class="square"><img src="Branvertia.png" alt="Branvertia"></div>
+          <div class="square"><img src="The Last Ledger1.png" alt="The Last Ledger"></div>
+          <div class="square"><img src="Game theory.png" alt="Game Theory"></div>
+          <div class="square"><img src="COP 364.png" alt="COP364"></div>
+          <div class="square"><img src="Exhibit1.png" alt="Exhibit1"></div>
+          <div class="square"><img src="skillesta1.png" alt="Skillesta"></div>
+          <div class="square"><img src="Idea Brigade.png" alt="Idea Brigade"></div>
+          <div class="square"><img src="stonks1.png" alt="Stonks"></div>
+          <div class="square"><img src="Branvertia.png" alt="Branvertia"></div>
+          <div class="square"><img src="The Last Ledger1.png" alt="The Last Ledger"></div>
+          <div class="square"><img src="Game theory.png" alt="Game Theory"></div>
+          <div class="square"><img src="COP 364.png" alt="COP364"></div>
+          <div class="square"><img src="Exhibit1.png" alt="Exhibit1"></div>
+          <div class="square"><img src="skillesta1.png" alt="Skillesta"></div>
+        </div>
+      </div>
+      <a href="Categories.html">
+        <button class="study-guide-btn">Study Guides</button>
+      </a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+<section id="about" style="min-height: 1%;"></section>
+
+<section class="about" data-aos="fade-up" data-aos-delay="400">
+  
+  <!-- About Empresario on top -->
+  <div class="about-col full-width">
+    <h2 class="nig-title">About Empresario</h2>
+    <p class="para">
+      This year, we present 8 exciting categories, offering students a chance to ignite their entrepreneurial instincts. 
+      These categories foster critical thinking, creativity, and problem-solving. 
+      Delegates will be tested on analytical skills, innovation, confidence, persuasion, time management, and teamwork, 
+      while also facing physical challenges. JT Empresario unites the nation's brightest minds for a thrilling competition, 
+      providing a prestigious and dynamic experience.
+    </p>
+  </div>
+
+  <!-- Row with Our Mission (left) + Muse x Empresario (right) -->
+  <div class="row">
+    <div class="about-col">
+      <h2 class="nig-title">Muse x Empresario</h2>
+      <p class="para">
+        This year, like the previous one, Muse and Empresario, two of JT's most awaited events, are being held together. 
+        Though they will have different registrations and will operate as separate olympiads, they will play out on the same dates. 
+        Teams can perform in both Muse and Empresario to their liking. However, the award system for both events will be separate 
+        and delegates who only registered for one event can not participate in the other.
+      </p>
+    </div>
+
+    <div class="about-col">
+      <h2 class="nig-title">Our Mission</h2>
+      <p class="para">
+        Empresario was created to address the need for quality business and entrepreneurial events, 
+        offering high school students a real-world glimpse into the business world. 
+        At LGS JT, we aim to expand young minds beyond the classroom by introducing them to entrepreneurship. 
+        This event ignites the entrepreneurial spirit within each individual, helping youth apply theoretical knowledge 
+        to real-world solutions for today's most pressing challenges.
+      </p>
+    </div>
+  </div>
+
+  <div class="register-box">
+    <h2 class="register-title">Register</h2>
+    <p class="register-text">Click on the following button to start the registration process.</p>
+    <a href="registration.html">
+      <button class="register-now">Register Now</button>
+    </a>
+  </div>
+</section>
+
+
+  <!--Contact Us-->
+      <section class="footer" data-aos="fade-up" data-aos-delay="200"><footer>
+        <div class="footer" id="contact-us"></div>
+          <div class="footer-container">
+            <div class="footer-column">
+              <div class="footer-section">
+                </div>
+                  <div class="footer-section">
+                        <h3>Find Us <span class="underline"></span></h3>
+                        <iframe class="frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6805.9164225023205!2d74.2856334346539!3d31.47033569554604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391903e0fc887323%3A0xab96115d544c1796!2sLahore%20Grammar%20School%20for%20Boys%20(LGS%20JT)!5e0!3m2!1sen!2s!4v1727659253416!5m2!1sen!2s" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div class="footer-section">
+                        <h3>Follow Us <span class="underline"></span></h3>
+                        <a href="https://www.instagram.com/jt.empresario/" target="_blank"><img class="icon1" class="frame" src="insta.webp" alt="Instagram"></a>
+                        <a href="mailto:info.alevel@lgsjt.edu.pk"><img class="icon1" class="frame" src="gmail.png" alt="Gmail"></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <div class="council-section">
+                      <h2 class="council-title">Business Council</h2>
+                      <div class="council-cards">
+                        
+                        <div class="contact-card">
+                          <h3>President</h3>
+                          <p class="name">Syed Haziq Mehdi Sheerazi</p>
+                          <a href="tel:+923038158800" class="phone-btn">
+                            <img src="phone.jpg" alt="Phone"> +92 303 8158800
+                          </a>
+                          <a href="mailto:syedhaziq1214@gmail.com" style="margin-top: 10px;" class="phone-btn">
+                            <img src="istockphoto-1456825464-612x612.jpg" alt="Email">syedhaziq1214@gmail.com</a>
+                        </div>
+
+                        <div class="contact-card">
+                          <h3>Vice President</h3>
+                          <p class="name">Kamil Habib Goraya</p>
+                          <a href="tel:+923229914549" class="phone-btn">
+                            <img src="phone.jpg" alt="Phone"> +92 322 9914549
+                          </a>
+                          <a href="mailto:kamilgoraya2.7@gmail.com" style="margin-top: 10px;" class="phone-btn">
+                            <img src="istockphoto-1456825464-612x612.jpg" alt="Email">kamilgoraya2.7@gmail.com</a>
+                        </div>
+
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        </div>
+      </section>
+  <!-- Copyright -->
+  <div>
+    <p class="end">
+      ©Copyright Empresario 2025 | Designed By
+      <span class="hehe">
+        <a href="https://www.instagram.com/waleed._fr/" target="_blank">Waleed Ajmal</a>
+      </span>
+    </p>
+  </div>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    // Initialize AOS
+    AOS.init({
+      duration: 1000,
+      once: false
+    });
+
+    // Countdown Timer
+    const targetDate = new Date("2025-10-11T00:00:00").getTime();
+
+    function getTimeSegmentElements(segmentElement) {
+      const segmentDisplay = segmentElement.querySelector('.segment-display');
+      return {
+        segmentDisplayTop: segmentDisplay.querySelector('.segment-display__top'),
+        segmentDisplayBottom: segmentDisplay.querySelector('.segment-display__bottom'),
+        segmentOverlay: segmentDisplay.querySelector('.segment-overlay'),
+        segmentOverlayTop: segmentDisplay.querySelector('.segment-overlay__top'),
+        segmentOverlayBottom: segmentDisplay.querySelector('.segment-overlay__bottom'),
+      };
+    }
+
+    function updateSegmentValues(displayElement, overlayElement, value) {
+      displayElement.textContent = value;
+      overlayElement.textContent = value;
+    }
+
+    function updateTimeSegment(segmentElement, timeValue) {
+      const seg = getTimeSegmentElements(segmentElement);
+      const currentValue = parseInt(seg.segmentDisplayTop.textContent, 10) || 0;
+      
+      if (currentValue === timeValue) return;
+
+      seg.segmentOverlay.classList.add('flip');
+      updateSegmentValues(seg.segmentDisplayTop, seg.segmentOverlayBottom, timeValue);
+      updateSegmentValues(seg.segmentDisplayBottom, seg.segmentOverlayTop, currentValue);
+
+      function finishAnimation() {
+        seg.segmentOverlay.classList.remove('flip');
+        updateSegmentValues(seg.segmentDisplayBottom, seg.segmentOverlayTop, timeValue);
+        this.removeEventListener('animationend', finishAnimation);
+      }
+      seg.segmentOverlay.addEventListener('animationend', finishAnimation);
+    }
+
+    function updateTimeSection(sectionID, timeValue) {
+      const firstNumber = Math.floor(timeValue / 10) || 0;
+      const secondNumber = timeValue % 10 || 0;
+      const sectionElement = document.getElementById(sectionID);
+      const timeSegments = sectionElement.querySelectorAll('.time-segment');
+
+      updateTimeSegment(timeSegments[0], firstNumber);
+      updateTimeSegment(timeSegments[1], secondNumber);
+    }
+
+    function getTimeRemaining(targetDateTime) {
+      const nowTime = Date.now();
+      const complete = nowTime >= targetDateTime;
+      if (complete) return { complete, seconds: 0, minutes: 0, hours: 0, days: 0 };
+
+      const secondsRemaining = Math.floor((targetDateTime - nowTime) / 1000);
+      const days = Math.floor(secondsRemaining / (60 * 60 * 24));
+      const hours = Math.floor((secondsRemaining % (60 * 60 * 24)) / (60 * 60));
+      const minutes = Math.floor((secondsRemaining % (60 * 60)) / 60);
+      const seconds = secondsRemaining % 60;
+
+      return { complete, seconds, minutes, hours, days };
+    }
+
+    function updateAllSegments() {
+      const t = getTimeRemaining(targetDate);
+      updateTimeSection('days', t.days);
+      updateTimeSection('hours', t.hours);
+      updateTimeSection('minutes', t.minutes);
+      updateTimeSection('seconds', t.seconds);
+      return t.complete;
+    }
+
+    const countdownTimer = setInterval(() => {
+      if (updateAllSegments()) clearInterval(countdownTimer);
+    }, 1000);
+
+    updateAllSegments();
+  </script>
+  <script>
+  window.addEventListener("scroll", function () {
+    const navbar = document.querySelector(".mini-navbar");
+    const container = document.querySelector(".mini-navbar-container");
+
+    // Get distance from top of page to navbar
+    const stickyPoint = container.offsetTop;
+
+    if (window.scrollY > stickyPoint) {
+      navbar.classList.add("sticky");
+    } else {
+      navbar.classList.remove("sticky");
+    }
+  });
+  </script>
+</body>
+</html>
